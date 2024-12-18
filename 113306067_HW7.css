@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.main-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 1150px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.left-panel {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  background-color: #eaeff1;
+}
+
+.right-panel {
+  width: 540px;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+
+.photo-panel {
+  height: 50%;
+  background-image: url('cc.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.text-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.text-content h2, .text-content h3 {
+  margin: 0;
+  color: #333;
+}
+
+.nccu-icon {
+  align-self: center;
+  max-width: 80px;
+}
+
+
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Timeline */
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.year {
+  font-weight: bold;
+  color: #777;
+}
+
+.description {
+  color: #555;
+}
+
+
+.homework-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.homework-list a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.homework-list a:hover {
+  text-decoration: underline;
+}
+
+
+.music-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.music-gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.music-gallery img:hover {
+  transform: scale(1.1);
+}
+
+.music-note {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.hw-label {
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+.hw-link {
+  color: #555;
+  font-size: 0.95em;
+  margin-left: 5px;
+}
+
+.hw-link a {
+  color: #555;
+  font-weight: normal;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.hw-link a:hover {
+  color: #444; 
+}
